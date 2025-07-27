@@ -1,0 +1,118 @@
+/* Fuente base */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f7fa;
+  color: #002856;
+  padding: 2rem;
+}
+
+header {
+  background-color: #002856;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1rem;
+  color: #FFD100;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.tarjeta {
+  background-color: #ffffff;
+  border: 2px solid #002856;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.tarjeta img,
+.tarjeta video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.descripcion {
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+}
+
+.descripcion h3 {
+  color: #002856;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.descripcion p {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Botón para subir proyectos */
+.subir-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #FFD100;
+  color: #002856;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 1rem 0;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.subir-btn:hover {
+  background-color: #e6bb00;
+}
+.btn-regresar {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 22px;
+  background-color: #8B0000; /* Rojo oscuro UCE */
+  color: #FFD700;            /* Dorado UCE */
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(139, 0, 0, 0.5);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-regresar:hover {
+  background-color: #B22222; /* Rojo un poco más claro */
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(178, 34, 34, 0.7);
+}

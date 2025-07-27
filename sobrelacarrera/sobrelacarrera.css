@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(90deg, #002856 0%, #001f3f 50%, #002856 100%);
+  /* Fondo azul oscuro degradado */
+  color: #fffbea; /* blanco hueso */
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: rgba(0, 40, 90, 0.85); /* azul semi-transparente */
+  box-shadow: 0 0 15px #ffd700;
+}
+
+header h1 {
+  font-size: 3.5em;
+  margin: 0;
+  color: #ffd700; /* dorado */
+  text-shadow: 0 0 8px #ffd700;
+}
+
+header h2 {
+  font-size: 1.8em;
+  color: #fffbeacc; /* blanco semi-transparente */
+  margin-top: 10px;
+}
+
+main {
+  padding: 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.seccion {
+  background-color: rgba(255, 255, 255, 0.1); /* blanco muy translúcido */
+  margin-bottom: 30px;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #ffd70070;
+  backdrop-filter: blur(5px);
+}
+
+.seccion h3 {
+  color: #ffd700; /* dorado */
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+
+.seccion p,
+.seccion ul {
+  font-size: 1.1em;
+  line-height: 1.7;
+  color: #fffbea; /* texto blanco */
+}
+
+.seccion ul li {
+  margin-bottom: 8px;
+}
+
+.seccion img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-top: 15px;
+  box-shadow: 0 0 10px #00285688; /* sombra azul suave */
+}
+
+a {
+  color: #fff38a; /* amarillo claro */
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ffd700; /* dorado */
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 40, 90, 0.85); /* azul semi-transparente */
+  font-size: 0.9em;
+  color: #fffbeacc; /* blanco semi-transparente */
+}
+.btn-regresar {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 22px;
+  background-color: #8B0000; /* Rojo oscuro UCE */
+  color: #FFD700;            /* Dorado UCE */
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(139, 0, 0, 0.5);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-regresar:hover {
+  background-color: #B22222; /* Rojo un poco más claro */
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(178, 34, 34, 0.7);
+}
