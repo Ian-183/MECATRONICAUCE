@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border: 2px solid #0057b8; /* azul oscuro */
+    border-radius: 15px;
+    width: 90%;
+    max-width: 700px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #d4af37; /* dorado */
+    margin-bottom: 25px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.horario {
+    background-color: #2a2a2a;
+    border: 1px solid #007bff; /* azul más vivo */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.horario:hover {
+    background-color: #333333;
+    transform: scale(1.02);
+}
+
+.neon {
+    font-size: 1.8rem;
+    color: #ffe066; /* amarillo claro */
+}
+
+.espacio-imagen {
+    border: 1px dashed #0057b8;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.imagen-central {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
